@@ -12,7 +12,7 @@ public class ArgConstructor1 {
 	String name;
 
 	// Creating a parameterized constructor  
-	ArgConstructor1(int i, String n){  
+	ArgConstructor1(int i, String n) {  
 		id = i;  
 		name = n;  
 	} 
@@ -22,12 +22,12 @@ public class ArgConstructor1 {
 		System.out.println(id+" "+name);
 	}  
 	
-	public static void main(String args[]){  
+	public static void main(String args[]) {  
 		// Creating objects and passing values  
-		ArgConstructor1 ArgCon1 = new ArgConstructor1(1,"Amos");  
-		ArgConstructor1 ArgCon2 = new ArgConstructor1(2,"Kibet");  
+		ArgConstructor1 obj1 = new ArgConstructor1(1,"Amos");  
+		ArgConstructor1 obj2 = new ArgConstructor1(2,"Kibet");  
 		// Calling method to display the values of object  
-		ArgCon1.display();  
-		ArgCon2.display();  
+		obj1.display();  
+		obj2.display();  
 	}
 }
