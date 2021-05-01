@@ -10,3 +10,17 @@
 #### Constructor name must be the same as its class name
 * A Constructor must have no explicit return type
 * A Java constructor cannot be abstract, static, final, and synchronized
+### Types of Java constructors
+#### There are two types of constructors in Java:
+* Default constructor (no-arg constructor)
+* Parameterized constructor
+ 
+![sceenshot](https://static.javatpoint.com/images/core/java-constructor.png)
+
+### Rule: 
+#### If there is no constructor in a class, compiler automatically creates a default constructor.
+### Q) What is the purpose of a default constructor?
+#### The default constructor is used to provide the default values to the object like 0, null, etc., depending on the type
+### Why use the parameterized constructor?
+#### The parameterized constructor is used to provide different values to distinct objects. However, you can provide the same values also.
+![sceenshot](https://static.javatpoint.com/images/constructor-vs-method-in-java.jpg)
